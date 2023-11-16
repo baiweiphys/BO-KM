@@ -1,0 +1,5 @@
+qs(e)  ms(me)  ns(m^-3)  Ts_parallel(eV)  Ts_perp(eV)  us0/c   kappa  kappa_threshold_value
+ 1     1836.0  1e6       24.838e3         99.352e3     0       2      10
+-1     1       1.11e6    24.838e3         24.838e3     0       2      10
+ 1     1836.0  0.01e6    24.838e3         24.838e3     0.0727  2      10
+ 1     7734.0  0.1e6     0.1e3            0.1e3        0       10     2
