@@ -60,7 +60,7 @@ If you encounter any issues, kindly get in touch with us.
 
 Wei Bai, baiweiphys@gmail.com, baiwei12@mail.ustc.edu.cn, TYUT
 
-Huasheng xie,  huashengxie@gmail.com, xiehuasheng@enn.cn, ENN
+Huasheng Xie,  huashengxie@gmail.com, xiehuasheng@enn.cn, ENN
 
 2023-11-16 
 
