@@ -1,7 +1,11 @@
 function index = getIndexOfBlkMatrix_mixed(S_km,S_bm,N,J,kappas_km,MatrixNo)
-% filename: getIndexOfBlkMatrix_mixed.m
-% To get the index of subblock Matrix in the mixed total Matrix.
-% Modified on Oct 16th, 2023
+% @Description: To obtain the index of a subblock matrix within a composite 
+% matrix that exhibits a mixed plasma distribution of KM and BM.
+% @Filename: getIndexOfBlkMatrix_mixed.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-10-16
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % for kappa-Maxwellian matrix 
 len_Ml = getLen_Ml(S_km,N,kappas_km);

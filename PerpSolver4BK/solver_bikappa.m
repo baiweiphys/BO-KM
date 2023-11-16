@@ -1,13 +1,11 @@
 function w = solver_bikappa(S,N,kx,kz,B0,par,sp)
-% filename: solver_bikappa.m
-% To calcuate the roots by given k for perpendicular propation plasma wave 
-% model with a bi-kappa distrubution.
-% Generated on October 1st, 2023 by Bai Wei (baiweiphys@gmail.com).
-% Modified on Sep 24th, 2023
-
-% clear all;
-% clc;
-% close all;
+% @Description: To calculate the roots for the perpendicular propagation
+% plasma wave model with a bi-kappa distribution, given the value of kx and kz.
+% @Filename: solver_bikappa.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

@@ -1,10 +1,11 @@
 function M = M_maxwell(S,N,J,csnj,bxyzsnj,MatrixNo_maxwell,ExyzNo)
-% filename: M_maxwell.m
-% Calculate the Maxwellian plasma matrix of M_maxwell for the 
-% oblique plasma wave model with a bi-Maxweillian distrubution.
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Sep 3rd, 2023，
-% and revised on Sep 4th, 2023.
+% @Description: Calculate the M_maxwell matrix for the oblique 
+% plasma wave model with a BM plasmas.
+% @Filename: M_maxwell.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-03
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 NJ = (2*N+1)*J;
 SNJ = S*NJ;

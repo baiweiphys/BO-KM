@@ -1,9 +1,11 @@
 function S0sn = S0snFunc(s,n,kappas,lambdas)
-% filename: S0snFunc.m
-% Calculate the integral of S0sn, which is the expression derived from 
-% the Summers1994 Pop.
-% Generated on October 1st, 2023 by Bai Wei (baiweiphys@gmail.com).
-% Modified on Sep 24th, 2023
+% @Description: Compute the integral of S0sn, which is the expression 
+% obtained from Ref. (Summers1994, PoP) .
+% @Filename: S0snFunc.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 Jn = @(x) besselj(n,x);
 

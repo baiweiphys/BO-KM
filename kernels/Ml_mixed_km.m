@@ -1,12 +1,15 @@
 function M = Ml_mixed_km(S_km,S_bm,N,J,kappas_km,csn_km,bxyzsnl,MatrixNo,ExyzNo)
-% filename: Ml_mixed_km.m
-% To get the Matrix Ml_KM for the mixed distributions of KM and BM plasmas.
-% Modified on Oct 16th, 2023
+% @Description: To obtain the Ml_mixed_km matrix for the mixed
+% distributions of KM and BM plasmas.
+% @Filename: Ml_mixed_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-10-16
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % ExyzNo = 5 for Ex
 % ExyzNo = 4 for Ey
 % ExyzNo = 3 for Ez
-
 
 % Step 0
 len_Ml = getLen_Ml(S_km,N,kappas_km);
@@ -29,7 +32,7 @@ LLs(2:end) = cumsum_LL(1:end-1);
 SNLL = (2*N+1)*sum(LL); 
 
 
-% Step 2: create Matrix
+% Step 2: Create Matrix
 index = getIndexOfBlkMatrix_mixed(S_km,S_bm,N,J,kappas_km,MatrixNo);
 FirstIndex = index(1)-1;
 

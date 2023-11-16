@@ -1,8 +1,11 @@
 function bx10 = km_bx10(wps)
-% filename:km_bx10.m
-% Calculate the coefficients of bx10 for x-component of oblique 
-% plasma wave model with a kappa-Maxweillian distrubution.
-% Modified on Sep 24th, 2023
+% @Description: Calculate the coefficients of bx10 for the x-component 
+% of oblique plasma waves with a kappa-Maxwellian distribution.
+% @Filename: km_bx10.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

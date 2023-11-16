@@ -1,12 +1,14 @@
 function M = Ml_km(S,N,kappas,csn,bxyzsnl,MatrixNo,ExyzNo)
-% filename: Ml_km.m
-% To get the Matrix Ml_KM.
-% Modified on Aug 10th, 2023
+% @Description: To obtain the Ml_km matrix for the KM plasmas.
+% @Filename: Ml_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-08-10
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % ExyzNo = 5 for Ex
 % ExyzNo = 4 for Ey
 % ExyzNo = 3 for Ez
-
 
 % Step 0
 len_Ml = getLen_Ml(S,N,kappas);
@@ -28,7 +30,7 @@ LLs = zeros(S,1);
 LLs(2:end) = cumsum_LL(1:end-1);
 SNLL = (2*N+1)*sum(LL); 
 
-% Step 2: create Matrix
+% Step 2: Create Matrix
 index = getIndexOfBlkMatrix_km(S,N,kappas,MatrixNo);
 FirstIndex = index(1)-1;
 len_row = SNLL+1;

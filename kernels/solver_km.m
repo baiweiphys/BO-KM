@@ -1,8 +1,11 @@
 function w = solver_km(N,kx,kz,theta,B0,par,sp)
-% filename: solver_km.m
-% To calcuate the roots by given k for oblique plasma wave model 
-% with a kappa-Maxweillian distrubution.
-% Modified on Sep 24th, 2023
+% @Description: To compute the roots for the oblique plasma 
+% wave model with a kappa-Maxwellian distribution, given kx and kz.
+% @Filename: solver_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-9-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 
@@ -195,7 +198,6 @@ M(end,end-4) = M(end,end-4) + kx;   % for Bz
 
 
 %% Solver
-
 if(sp==0)
     [V,D] = eig(A\M);
 else

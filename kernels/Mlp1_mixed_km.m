@@ -1,7 +1,11 @@
 function M = Mlp1_mixed_km(S_km,S_bm,N,J,kappas_km,csn_km,bxyzsnl,MatrixNo,ExyzNo)
-% filename: Mlp1_mixed_km.m
-% To get the Matrix Ml_km for the mixed distributions of KM and BM plasmas.
-% Modified on Oct 16th, 2023
+% @Description: To obtain the Ml_km matrix for the mixed distributions 
+% of KM and BM plasmas.
+% @Filename: Mlp1_mixed_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-10-16
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % Step 0
 len_Ml = getLen_Ml(S_km,N,kappas_km);
@@ -37,7 +41,6 @@ len_maxwell_col = 9*(SNJ + 1);
 len_row = SNLL+1;
 len_col = len_km_col + len_maxwell_col + 9;
 M = zeros(len_row,len_col);
-
 
 % Step 3
 Nvector = -N:N;

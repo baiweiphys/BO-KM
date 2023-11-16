@@ -1,8 +1,12 @@
-function [w,dEx,dEy,dEz,dBx,dBy,dBz] = solver_mixed(N,J,kx,kz,theta,B0,par,sp)
-% filename: solver_mixed.m
-% To calcuate the roots by given k for oblique plasma wave model 
-% with a mixed distrubutions in both kappa-Maxweillian and bi-Maxweillian plasmas.
-% Modified on Oct 16th, 2023
+function w = solver_mixed(N,J,kx,kz,theta,B0,par,sp)
+% @Description: To compute the roots for the oblique plasma 
+% wave model with a mixed distribution in both kappa-Maxwellian 
+% and bi-Maxwellian plasmas, given kx and kz.
+% @Filename: solver_mixed.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-8-16
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 
@@ -311,16 +315,6 @@ omega = diag(D);
 % [wr,ind]=sort(real(omega),'descend');
 w = omega(index);
 w(abs(w)==min(abs(w))) = NaN+1i*NaN; % remove zero solution
-
-% get Ex, Ey, Ez, Bx, By, and Bz
-V_re = real(V(:,index));
-V_im = imag(V(:,index));
-dEx = V(end-5,index);
-dEy = V(end-4,index);
-dEz = V(end-3,index);
-dBx = V(end-2,index);
-dBy = V(end-1,index);
-dBz = V(end,index);
 
 end
 

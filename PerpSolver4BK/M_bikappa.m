@@ -1,9 +1,10 @@
 function M = M_bikappa(S,N,wcs,bxyzsn,MatrixNo_bikappa,ExyzNo)
-% filename: M_bikappa.m
-% Calculate the matrix of M_bikappa for the 
-% perpendicular propation plasma wave model with a bi-kappa distrubution.
-% Generated on October 1st, 2023 by Bai Wei (baiweiphys@gmail.com).
-% Modified on Sep 24th, 2023
+% @Description: Compute the matrix M_bikappa for the perpendicular 
+% propagation plasma wave model with a bi-kappa distribution.
+% @Filename: M_bikappa.m
+% @Date: 2021-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 SN = (2*N+1)*S;
 index = getIndexOfBlkMatrix_bikappa(S,N,MatrixNo_bikappa);

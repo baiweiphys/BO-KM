@@ -1,12 +1,14 @@
 function by21snl = km_by21snl(s,n,l,bsnl,wps,lambdas)
-% filename: km_by12snl.m
-% Calculate the coefficients of by21snl for y-component of oblique 
-% plasma wave model with loss-cone kappa-Maxweillian distrubution.
-% Modified on Sep 24th, 2023
+% @Description: Calculate the coefficients of by21snl for the y-component 
+% of oblique plasma waves with a kappa-Maxwellian distribution.
+% @Filename: km_by12snl.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 
-% dIn = besseli(n+1,lambdas(s)) + n*besseli(n,lambdas(s))/lambdas(s);
 dIn = 0.5*besseli(n+1,lambdas(s)) + 0.5*besseli(n-1,lambdas(s));
 In = besseli(n,lambdas(s));
 

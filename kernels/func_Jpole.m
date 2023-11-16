@@ -1,6 +1,9 @@
 function [bzj,czj] = func_Jpole(J)
-% J-pole expansion
-% % Modified by BaiWei, Dec 27, 2021
+% @Description: J-pole expansion (from Xie2016, PST).
+% @Filename: func_Jpole.m
+% @Date: 2021-10-27
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % J=4; % J-pole
 if (J==4) % Martin1980

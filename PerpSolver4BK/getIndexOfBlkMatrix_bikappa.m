@@ -1,9 +1,11 @@
 function index = getIndexOfBlkMatrix_bikappa(S,N,MatrixNo_bikappa)
-% filename: getIndexOfBlkMatrix_bikappa.m
-% To determine the index of a sub-block matrix within a total matrix 
+% @Description: To obtain the index of a subblock matrix within a matrix 
 % for perpendicular propagation in bi-kappa plasmas.
-% Generated on October 1st, 2023 by Bai Wei (baiweiphys@gmail.com).
-% Modified on Sep 24th, 2023
+% @Filename: getIndexOfBlkMatrix_bikappa.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2021-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 SN = S*(2*N+1);
 SNp1 = SN + 1;

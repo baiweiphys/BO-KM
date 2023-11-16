@@ -1,7 +1,11 @@
 function index = getIndexOfBlkMatrix_km(S,N,kappas,MatrixNo)
-% filename: getIndexOfBlkMatrix.m
-% To get the index of KM subblock Matrix in total Matrix.
-% Modified on Aug 11st, 2023
+% @Description: To obtain the index of a subblock matrix within a composite 
+% matrix that exhibits a KM plasma distribution.
+% @Filename: getIndexOfBlkMatrix.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-08-11
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 len_Ml = getLen_Ml(S,N,kappas);
 len_Mlp1 = getLen_Mlp1(S,N,kappas);

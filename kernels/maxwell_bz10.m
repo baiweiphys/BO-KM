@@ -1,10 +1,11 @@
 function bz10 = maxwell_bz10(S,N,J,bsnj,csnj,wps,lambdas,theta)
-% filename: maxwell_bz10.m
-% Calculate the coefficients of bz10 for the oblique plasma wave model 
-% with a bi-Maxweillian distrubution.
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Sep 3rd, 2023，
-% and revised on Sep 4th, 2023.
+% @Description: Calculate the coefficients of bz10 for the oblique 
+% plasma wave model with a bi-Maxwellian distribution.
+% @Filename: maxwell_bz10.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-03
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 In = @(s,n) besseli(n,lambdas(s));

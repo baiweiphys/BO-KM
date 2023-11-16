@@ -1,10 +1,11 @@
 function w = solver_maxwell(N,J,kx,kz,theta,B0,par,sp)
-% filename: solver_maxwell.m
-% To calcuate the roots by given k for oblique plasma wave model 
-% with a bi-Maxweillian distrubution.
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Sep 3rd, 2023，
-% and revised on Sep 4th, 2023.
+% @Description: To calculate the roots for the oblique plasma 
+% wave model with bi-Maxwellian distribution, given kx and kz.
+% @Filename: solver_maxwell.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-9-03
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

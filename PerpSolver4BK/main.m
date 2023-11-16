@@ -1,7 +1,10 @@
-% filename: main.m
-% main routine for perpendicular propation plasma wave model 
-% with a bi-kappa distrubution.
-% Generated on October 1st, 2023 by Bai Wei (baiweiphys@gmail.com).
+% @Description: Driver routine to calculate the solution for the bi-kappa 
+% plasma dispersion relation in a perpendicular propagation plasma wave 
+% model with a bi-kappa distribution.
+% @Filename: main.m
+% @Date: 2021-10-01
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 clear all;
 clc;

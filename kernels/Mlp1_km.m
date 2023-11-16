@@ -1,7 +1,11 @@
 function M = Mlp1_km(S,N,kappas,csn,bxyzsnl,MatrixNo,ExyzNo)
-% filename: Mlp1_km.m
-% To get the Matrix Ml_km.
-% Modified on Aug 12nd, 2023
+% @Description: To obtain the Mlp1_km matrix for BM plasmas.
+% @Filename: Mlp1_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-08-12
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
+
 
 % Step 0
 len_Ml = getLen_Ml(S,N,kappas);

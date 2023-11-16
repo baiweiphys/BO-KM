@@ -1,8 +1,11 @@
 function bx33snl = km_bx33snl(s,n,l,bsnl,wps,lambdas,wcs,th)
-% filename: km_bx33snl.m
-% Calculate the coefficients of bx33snl for x-component of oblique 
-% plasma wave model with a kappa-Maxweillian distrubution.
-% Modified on Sep 24th, 2023
+% @Description: Calculate the coefficients of bx33snl for the x-component 
+% of oblique plasma waves with a kappa-Maxwellian distribution.
+% @Filename: km_bx33snl.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

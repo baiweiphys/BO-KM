@@ -1,9 +1,11 @@
 function index = getIndexOfBlkMatrix_maxwell(S,N,J,MatrixNo_maxwell)
-% filename: getIndexOfBlkMatrix_maxwell.m
-% To get the index of subblock Matrix in total Matrix.
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Sep 3rd, 2023，
-% and revised on Sep 4th, 2023.
+% @Description: To obtain the index of a subblock matrix within a composite 
+% matrix that exhibits a BM plasma distribution.
+% @Filename: getIndexOfBlkMatrix_maxwell.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-03
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 SNJ = S*(2*N+1)*J;
 SNJp1 = SNJ + 1;

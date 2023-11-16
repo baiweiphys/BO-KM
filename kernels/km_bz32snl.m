@@ -1,8 +1,11 @@
 function bz32snl = km_bz32snl(s,n,l,csn,bsl,wps,lambdas,wcs,th)
-% filename: km_bz32snl.m
-% Calculate the coefficients of bz32snl for z-component of oblique 
-% plasma waves with a kappa-Maxweillian distrubution.
-% Modified on Sep 24th, 2023
+% @Description: Calculate the coefficients of bz32snl for the z-component 
+% of oblique plasma waves with a kappa-Maxwellian distribution.
+% @Filename: km_bz32snl.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

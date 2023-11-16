@@ -1,7 +1,10 @@
 function [M,sum_b,index] = Mlm2_km(S,N,kappas,csn,bxyzsnl,MatrixNo,ExyzNo)
-% filename: Mlm2_km.m
-% To get the Matrix Ml_KM.
-% Modified on Aug 12nd, 2023
+% @Description: To obtain the Mlm2_km matrix for KM plasmas.
+% @Filename: Mlm2_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-08-12
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % ExyzNo = 5 for Ex
 % ExyzNo = 4 for Ey

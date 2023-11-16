@@ -1,10 +1,11 @@
 function M = M_mixed_maxwell(S_km,S_bm,N,J,kappas_km,csnj_maxwell,bxyzsnj,MatrixNo,ExyzNo)
-% filename: M_mixed_maxwell.m
-% Calculate the Maxwellian plasma matrix of M_maxwell for the 
-% oblique plasma wave model with a mixed distribution of KM and BM plasmas.
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Sep 3rd, 2023，
-% and revised on Oct 16th, 2023.
+% @Description: Calculate the M_mixed_maxwell matrix for the oblique 
+% plasma wave model incorporating a hybrid distribution of KM and BM plasmas.
+% @Filename: M_mixed_maxwell.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-03
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 
 % Step 0

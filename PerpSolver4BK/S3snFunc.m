@@ -1,9 +1,11 @@
 function S3sn = S3snFunc(s,n,kappas,lambdas)
-% filename: S3snFunc.m
-% Calculate the integral of S3sn, which is the expression derived from 
-% the Summers1994 Pop.
-% Generated on October 1st, 2023 by Bai Wei (baiweiphys@gmail.com).
-% Modified on Sep 24th, 2023
+% @Description: Compute the integral of S3sn, which is the expression 
+% obtained from Ref. (Summers1994, PoP) .
+% @Filename: S3snFunc.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 Jn = @(x) besselj(n,x);
 dJn = @(x) -0.5*besselj(n+1,x) + 0.5*besselj(n-1,x);

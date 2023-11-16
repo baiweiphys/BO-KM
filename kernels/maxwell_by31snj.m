@@ -1,10 +1,11 @@
 function by31snj = maxwell_by31snj(s,n,jj,bsnj,csnj,wps,wcs,lambdas,theta)
-% filename: maxwell_by31snj.m
-% Calculate the coefficients of by31snj for the oblique plasma wave model 
-% with a bi-Maxweillian distrubution.
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Sep 3rd, 2023，
-% and revised on Sep 4th, 2023.
+% @Description: Calculate the coefficients of by31snj for the oblique 
+% plasma wave model with a bi-Maxwellian distribution.
+% @Filename: maxwell_by31snj.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-03
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

@@ -1,8 +1,9 @@
 function [S,index_skm,index_sbm,kappas,vts_parallel,vts_perp,Ts_parallel,Ts_perp,wps,wcs,us0,rhocs,lambdaDs] = getPlasmaPrameters(B0,par) 
-% filename: getPlasmaPrameters.m
-% The script created by Bai Wei (email:baiwei12@mail.ustc.edu.cn) 
-% was created on Jan 5th, 2022，
-% and revised on Oct 15th, 2023.
+% @Description: To obtain the plasma parameters.
+% @Filename: getPlasmaPrameters.m
+% @Date: 2022-01-05
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 

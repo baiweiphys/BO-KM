@@ -1,5 +1,9 @@
 % filename: params_with_unit.m
-% Modified on Dec 30th, 2021
+% @Description: Physical constants (SI unit).
+% @Filename: params_with_unit.m
+% @Date: 2021-10-30
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 % Default SI unit
 c2 = (2.99792458e8)^2; % speed of ligth c^2

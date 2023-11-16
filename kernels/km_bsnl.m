@@ -1,8 +1,11 @@
 function bsnl = km_bsnl(s,n,l,kappas,vts_parallel,wcs,kz)
-% filename: km_bsnl.m
-% Calculate the coefficients of bsnl for oblique plasma wave model 
-% with a kappa-Maxweillian distrubution.
-% Modified on sep 24th, 2023
+% @Description: Calculate the coefficients of bsnl for the oblique 
+% plasma waves with a kappa-Maxwellian distribution.
+% @Filename: km_bsnl.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 coefbs0 =  @(s,l) 1i/vts_parallel(s)*(kappas(s)-0.5)/sqrt(kappas(s));
 coefbs1 =  @(s,l) coefbs0(s,l)*factorial(kappas(s))/factorial(2*kappas(s))...

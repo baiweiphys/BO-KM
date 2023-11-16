@@ -1,7 +1,12 @@
 function M = Mlm1_mixed_km(S_km,S_bm,N,J,kappas_km,csn_km,bxyzsnl,MatrixNo,ExyzNo)
-% filename: Mlm1_mixed_km.m
-% To get the Matrix Ml_KM for the mixed distributions of KM and BM plasmas.
-% Modified on Oct 16th, 2023
+% @Description: To obtain the Mlm1_mixed_km matrix for the mixed 
+% distributions of KM and BM plasmas.
+% @Filename: Mlm1_mixed_km.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-10-16
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
+
 
 % ExyzNo = 5 for Ex
 % ExyzNo = 4 for Ey

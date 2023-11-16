@@ -1,12 +1,14 @@
 function by22snl = km_by22snl(s,n,l,bsl,wps,lambdas)
-% filename: coef_by22snl.m
-% Calculate the coefficients of by22snl for y-component of oblique 
-% plasma waves with a kappa-Maxweillian distrubution.
-% Modified on Sep 24th, 2023
+% @Description: Calculate the coefficients of by22snl for the y-component 
+% of oblique plasma waves with a kappa-Maxwellian distribution.
+% @Filename: coef_by22snl.m
+% @Author: Bai Wei (baiweiphys@gmail.com)
+% @Date: 2023-09-24
+% @LastEditors: Bai Wei
+% @LastEditTime: 2023-11-15
 
 params_with_unit;
 
-% dIn = besseli(n+1,lambdas(s)) + n*besseli(n,lambdas(s))/lambdas(s);
 dIn = 0.5*besseli(n+1,lambdas(s)) + 0.5*besseli(n-1,lambdas(s));
 In = besseli(n,lambdas(s));
 
