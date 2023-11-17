@@ -26,7 +26,7 @@ At present, only Matlab version of ``BO-KM`` is available, which has been tested
 	- ``BO-KM/RUN/Case_XXX/main_bokm.m``    % Driver routine of BO-KM. Execute this code to initiate the simulation.
 	- ``BO-KM/RUN/Case_XXX/output`` % For storing the output data.
 		- ``selected_plot``  % A subroutine is developed by Xie (Xie 2019, CPC) to enhance the visualization of 2D or 3D plots, enabling the selection of a specific dispersion surface or curve.
-- BO-KM/kernels                        %  Kernel file for ``BO-KM``
+- ``BO-KM/kernels``                        %  Kernel file for ``BO-KM``
 	- ``solver_km.m``                   % Solver for kappa-Maxwellian plasmas
 	 - ``solver_maxwell.m``        % Solver for bi-Maxwellian plasmas
 	 - ``solver_mixed.m``            % Solver for mixed distributions in both kappa-Maxwellian and bi-Maxwellian plasmas.
@@ -47,11 +47,11 @@ At present, only Matlab version of ``BO-KM`` is available, which has been tested
 	- ``M_bikappa.m``  % Compute the matrix M_bikappa for the perpendicular propagation plasma wave model with a bi-kappa distribution.
 	- ``S0snFunc.m``,``S1snFunc.m``,``S3snFunc.m``,``S5snFunc.m``  % Compute the integral of S0sn, S1sn, S3sn, and S5sn, which are the expression obtained from Ref. (Summers1994, PoP) .
 	- ``solver_bikappa.m``   %To calculate the roots for the perpendicular propagation plasma wave model with a bi-kappa distribution, given the value of kx and kz.
-- BO-KM/toolBox/``createDateFile.m`` % Create a new data folder if it doesn't exist.
+- ``BO-KM/toolBox/createDateFile.m`` % Create a new data folder if it doesn't exist.
 
 ## How to run the code:
 
-1. 1. Set input parameters in the file ``BO-KM/RUN/case_XXXX/bokm.i``.
+1. Set input parameters in the file ``BO-KM/RUN/case_XXXX/bokm.in``.
 2. Set the parameters of ``N``, ``J``, ``deg`` (propagation angles, in degrees), and ``B0`` (background magnetic field in the z direction) in the file ``BO-KM/RUN/case_XXXX/main_bokm.in``.
 3. After seting the above parameters in ``main_bokm.m``, run it. You can see some plots of the results. And all results will be stored in output directory. You can modify the plot section in the file  for different plots, or writing your own plot files.
 4. After setting the above parameters in the file ``main_bokm.m``, run it. You can see some plots of the results. Additionally, all the output will be saved in the ``output`` directory. If you wish to customize the plots, you can modify the corresponding section in the file or create your own plot files.
