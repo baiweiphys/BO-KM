@@ -53,8 +53,7 @@ At present, only Matlab version of ``BO-KM`` is available, which has been tested
 
 1. Set input parameters in the file ``BO-KM/RUN/case_XXXX/bokm.in``.
 2. Set the parameters of ``N``, ``J``, ``deg`` (propagation angles, in degrees), and ``B0`` (background magnetic field in the z direction) in the file ``BO-KM/RUN/case_XXXX/main_bokm.in``.
-3. After seting the above parameters in ``main_bokm.m``, run it. You can see some plots of the results. And all results will be stored in output directory. You can modify the plot section in the file  for different plots, or writing your own plot files.
-4. After setting the above parameters in the file ``main_bokm.m``, run it. You can see some plots of the results. Additionally, all the output will be saved in the ``output`` directory. If you wish to customize the plots, you can modify the corresponding section in the file or create your own plot files.
+3. After setting the above parameters in the file ``main_bokm.m``, run it. You can see some plots of the results. Additionally, all the output will be saved in the ``output`` directory. If you wish to customize the plots, you can modify the corresponding section in the file or create your own plot files.
 
 If you encounter any issues, kindly get in touch with us.
 
