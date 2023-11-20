@@ -1,4 +1,4 @@
-function S5sn = S5nFunc(s,n,kappas,lambdas)
+function S5sn = S5snFunc(s,n,kappas,lambdas)
 % @Description: Compute the integral of S5sn, which is the expression 
 % obtained from Ref. (Summers1994, PoP) .
 % @Filename: S5snFunc.m

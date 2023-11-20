@@ -1,4 +1,4 @@
-function S1sn = S1nFunc(s,n,kappas,lambdas)
+function S1sn = S1snFunc(s,n,kappas,lambdas)
 % @Description: Compute the integral of S1sn, which is the expression 
 % obtained from Ref. (Summers1994, PoP) .
 % @Filename: S1snFunc.m
