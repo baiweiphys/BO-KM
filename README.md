@@ -5,20 +5,8 @@
 [GitHub Repository](https://github.com/baiweiphys/BO-KM/) | [Releases](https://github.com/baiweiphys/BO-KM/releases)
 
 
-BO-KM (available at the URL: https://github.com/baiweiphys/BO-KM/) is a new tool developed by Wei Bai and Huasheng Xie. Its primary objective is to efficiently calculate all solutions for the dispersion relation of obliquely propagating waves in magnetized hot plasmas with multiple species. This code provides extensive support for a wide range of distribution functions, including anisotropic drift kappa-Maxwellian distributions, anisotropic drift bi-Maxwellian distributions, and their combinations. Additionally, it can also handle bi-kappa distributions for perpendicular propagation.
-
-Wei Bai (Email: baiweiphys@gmail.com, baiwei12@mail.ustc.edu.cn)
-College of Electrical and Power Engineering, Taiyuan University of Technology, Taiyuan 030024, China
-
-Huasheng Xie (Email: huashengxie@gmail.com, xiehuasheng@enn.cn)
-ENN Science and Technology Development Co., Ltd., Langfang 065001, China,
-Hebei Key Laboratory of Compact Fusion, Langfang 065001, China
-
-2023-11-16
-
-## BO-KM
-
-``BO-KM`` is a comprehensive code that has the capability to simultaneously solve for all significant roots of the dispersion relation for obliquely propagating waves in magnetized multi-species plasma. The code supports various distributions, including anisotropic drift kappa-Maxwellian distributions, anisotropic drift bi-Maxwellian distributions, and a combination of both (as well as bi-kappa distributions for perpendicular propagation). The ``BO-KM`` solver provides a powerful and efficient tool for analyzing the waves and instabilities in magnetized multi-species plasma with anisotropic drift kappa-Maxwellian, bi-Maxwellian distributions, or a mixture of both.
+## Description
+**BO-KM** (BO-Kappa-Maxwellian) is a comprehensive code that has the capability to simultaneously solve for all significant roots of the dispersion relation for obliquely propagating waves in magnetized multi-species plasma. The code supports various distributions, including anisotropic drift kappa-Maxwellian distributions, anisotropic drift bi-Maxwellian distributions, and a combination of both (as well as bi-kappa distributions for perpendicular propagation). The **BO-KM** solver provides a powerful and efficient tool for analyzing the waves and instabilities in magnetized multi-species plasma with anisotropic drift kappa-Maxwellian, bi-Maxwellian distributions, or a mixture of both.
 
 Input: The background magnetic field is denoted as $B_0$ (in Tesla), the angle of oblique propagation is represented as deg (in degrees), $J$ is a non-negative integer for $J$-pole expansion, $N$ is a non-negative integer for Bessel functions, and nk indicates the number of grid points.
 The ``bokm.in`` file requires the following input parameters: $q_s$ (charge of species in elementary charge units), $m_s$ (mass of species in terms of electron mass), $n_s$ (number density of species in cubic meters), $T_{\parallel s}$ (parallel temperature of species in electron volts), $T_{\perp s}$ (perpendicular temperature of species in electron volts), $u_{s_0}/c$ (species drift velocity normalized by the speed of light), $\kappa$ (value of kappa for the distribution function of the $s$-th particle species), and $\kappa_{s,th}$ (threshold value for kappa).
@@ -26,6 +14,22 @@ The ``bokm.in`` file requires the following input parameters: $q_s$ (charge of s
 We present seven benchmark examples that serve as representative cases, including the Multi-species bump-on-tail mode, EMEC waves, Bernstein waves, Whistler waves, Mirror mode, and EMIC waves.
 
 At present, only Matlab version of ``BO-KM`` is available, which has been tested in MacOS and Windows 11 under Matlab 2023b.
+
+
+## Authors
+**Wei Bai**  
+College of Electrical and Power Engineering  
+Taiyuan University of Technology  
+Taiyuan 030024, China  
+Email: baiweiphys@gmail.com, baiwei12@mail.ustc.edu.cn
+
+**Huasheng Xie**  
+ENN Science and Technology Development Co., Ltd.  
+Hebei Key Laboratory of Compact Fusion  
+Langfang 065001, China  
+Email: huashengxie@gmail.com, xiehuasheng@enn.cn
+
+
 
 ## Files structures:
 
