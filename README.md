@@ -1,4 +1,11 @@
-``BO-KM`` (available at the URL: https://github.com/baiweiphys/BO-KM/) is a new tool developed by Wei Bai and Huasheng Xie. Its primary objective is to efficiently calculate all solutions for the dispersion relation of obliquely propagating waves in magnetized hot plasmas with multiple species. This code provides extensive support for a wide range of distribution functions, including anisotropic drift kappa-Maxwellian distributions, anisotropic drift bi-Maxwellian distributions, and their combinations. Additionally, it can also handle bi-kappa distributions for perpendicular propagation.
+# BO-KM
+
+**Version 1.0** (Released on 2026-01-08)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18186760.svg)](https://doi.org/10.5281/zenodo.18186760)  
+[GitHub Repository](https://github.com/baiweiphys/BO-KM/) | [Releases](https://github.com/baiweiphys/BO-KM/releases)
+
+
+BO-KM (available at the URL: https://github.com/baiweiphys/BO-KM/) is a new tool developed by Wei Bai and Huasheng Xie. Its primary objective is to efficiently calculate all solutions for the dispersion relation of obliquely propagating waves in magnetized hot plasmas with multiple species. This code provides extensive support for a wide range of distribution functions, including anisotropic drift kappa-Maxwellian distributions, anisotropic drift bi-Maxwellian distributions, and their combinations. Additionally, it can also handle bi-kappa distributions for perpendicular propagation.
 
 Wei Bai (Email: baiweiphys@gmail.com, baiwei12@mail.ustc.edu.cn)
 College of Electrical and Power Engineering, Taiyuan University of Technology, Taiyuan 030024, China
