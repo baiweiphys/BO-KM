@@ -66,32 +66,28 @@ Email: huashengxie@gmail.com, xiehuasheng@enn.cn
 2. Set the parameters of ``N``, ``J``, ``deg`` (propagation angles, in degrees), and ``B0`` (background magnetic field in the z direction) in the file ``BO-KM/RUN/case_XXXX/main_bokm.in``.
 3. After setting the above parameters in the file ``main_bokm.m``, run it. You can see some plots of the results. Additionally, all the output will be saved in the ``output`` directory. If you wish to customize the plots, you can modify the corresponding section in the file or create your own plot files.
 
-## Referennces
-@article{BAI2025109434,
-title = {BO-KM: A comprehensive solver for dispersion relation of obliquely propagating waves in magnetized multi-species plasma with anisotropic drift kappa-Maxwellian distribution},
-journal = {Computer Physics Communications},
-volume = {307},
-pages = {109434},
-year = {2025},
-issn = {0010-4655},
-doi = {https://doi.org/10.1016/j.cpc.2024.109434},
-url = {https://www.sciencedirect.com/science/article/pii/S0010465524003576},
-author = {Wei Bai and Huasheng Xie and Chenchen Wu and Yanxu Pu and Pengcheng Yu},
-keywords = {Kappa-Maxwellian distribution, Kinetic dispersion relation, Waves and instabilities, Eigenvalue problem},
-abstract = {The observation of superthermal plasma distributions in space reveals a multitude of distributions with high-energy tails, and the kappa-Maxwellian distribution is a type of non-Maxwellian distribution that exhibits this characteristic. However, accurately determining the multiple roots of the dispersion relation for superthermal plasma waves propagating obliquely presents a challenge. To tackle this issue, we have developed a comprehensive solver, BO-KM, utilizing an innovative numerical algorithm that eliminates the need for initial value iteration. The solver offers an efficient approach to simultaneously compute the roots of the kinetic dispersion equation for oblique propagation in magnetized plasmas. It can be applied to magnetized superthermal plasma with multi-species, characterized by anisotropic drifting kappa-Maxwellian, bi-Maxwellian distributions, or a combination of the two. The rational and J-pole Padé expansions of the dispersion relation are equivalent to solving a linear system's matrix eigenvalue problem. This study presents the numerical findings for kappa-Maxwellian plasmas, bi-Maxwellian plasmas, and their combination, demonstrating the solver's outstanding performance through benchmark analyses.
-Program summary
-Program Title: BO-KM CPC Library link to program files: https://doi.org/10.17632/pr9cvjrvfv.1 Licensing provisions: BSD 3-clause Programming language: Matlab Nature of problem: To efficiently solve for multiple roots of the kinetic dispersion relation in superthermal plasma distributions with high-energy tails observed in space, we have developed BO-KM, a novel and comprehensive solver that employs a unified framework for computing uprathermal (or thermal) waves and instabilities. This solver is applicable to magnetized multi-species collisionless plasmas with anisotropic drift kappa-Maxwellian, bi-Maxwellian distributions, or a combination of both. Furthermore, BO-KM incorporates a submodule dedicated to the perpendicular propagation dispersion relation of bi-Kappa plasmas, thereby significantly improving computational efficiency at high κ values. Solution method: The method converts the kinetic plasma dispersion relation based on rational expansion (for the kappa-Maxwellian model) and J-pole Padé expansion (for the bi-Maxwellian model) into an equivalent linear eigenvalue system. This transformation effectively turns the root-finding task into an eigenvalue problem, enabling the simultaneous determination of roots using standard eigenvalue libraries. Additional comments including restrictions and unusual features: Kinetic relativistic effects are not included in the present version yet.}
-}
+## When referencing `BO-KM` in a publication, please cite:
+	@article{BAI2025109434,
+	title = {BO-KM: A comprehensive solver for dispersion relation of obliquely propagating waves in magnetized multi-species plasma with anisotropic drift kappa-Maxwellian distribution},
+	journal = {Computer Physics Communications},
+	volume = {307},
+	pages = {109434},
+	year = {2025},
+	issn = {0010-4655},
+	doi = {https://doi.org/10.1016/j.cpc.2024.109434},
+	url = {https://www.sciencedirect.com/science/article/pii/S0010465524003576},
+	author = {Wei Bai and Huasheng Xie and Chenchen Wu and Yanxu Pu and Pengcheng Yu},
+	}
 
-
-Bai, Wei; Xie, Huasheng; Wu, Chenchen; Pu, Yanxu; Yu, Pengcheng (2024), “BO-KM: A comprehensive solver for dispersion relation of obliquely propagating waves in magnetized multi-species plasma with anisotropic drift kappa-Maxwellian distribution”, Mendeley Data, V1, doi: 10.17632/pr9cvjrvfv.1
+[Computer Physics Communications 307 (2025) 109434]: https://doi.org/10.1016/j.cpc.2024.109434
+[CPC Library link to program files]: https://doi.org/10.17632/pr9cvjrvfv.1
 
 
 If you encounter any issues, kindly get in touch with us.
 
-Wei Bai, baiweiphys@gmail.com, baiwei12@mail.ustc.edu.cn, TYUT
+Wei Wei, baiwei01@tyut.edu.cn, baiweiphys@gmail.com,  TYUT
 
-Huasheng Xie,  huashengxie@gmail.com, xiehuasheng@enn.cn, ENN
+Huasheng Xie,  huashengxie@gmail.com, VeloAlpha
 
 2023-11-16 
 
