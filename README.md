@@ -83,6 +83,12 @@ Email: huashengxie@gmail.com, xiehuasheng@enn.cn
 [CPC Library link to program files]: https://doi.org/10.17632/pr9cvjrvfv.1
 
 
+
+## License
+
+This project is licensed under the BSD 3-Clause License — see the [LICENSE](LICENSE) file for details.
+
+
 If you encounter any issues, kindly get in touch with us.
 
 Wei Wei, baiwei01@tyut.edu.cn, baiweiphys@gmail.com,  TYUT
