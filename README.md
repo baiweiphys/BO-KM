@@ -88,6 +88,7 @@ Email: huashengxie@gmail.com, xiehuasheng@enn.cn
 
 This project is licensed under the BSD 3-Clause License — see the [LICENSE](LICENSE) file for details.
 
+---
 
 If you encounter any issues, kindly get in touch with us.
 
